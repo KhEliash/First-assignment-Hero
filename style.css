@@ -83,40 +83,82 @@ body {
   width: 1320px;
   height: 600px;
 }
-.midnight-text{
-    padding: 70px 125px;
+.midnight-text {
+  padding: 70px 125px;
 }
-.party-image{
-    padding: 70px 120px;
-    
+.party-image {
+  padding: 70px 120px;
 }
-.party-title{
-    color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
- font-weight: 900;
- letter-spacing: 7.04px;
- width: 600px;
- margin-bottom: 25px;
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  width: 600px;
+  margin-bottom: 25px;
 }
-.party-description{
-    color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
- font-weight: 400;
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
   margin-bottom: 50px;
- }
-.join{
-    color: #FFF;
+}
+.join {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.year-image {
+  width: 320px;
+  height: 450px;
+  padding: 70px 120px;
+}
+/* Schedule section */
+.schedule-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  margin: 120px auto;
+  border-radius: 16px;
+}
+.schedule-title{
+    color: #F00;
 text-align: center;
 font-family: Inter;
+font-size: 32px;
+ font-weight: 600;
+ text-transform: capitalize;
+}
+.schedule-text{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+ font-weight: 600;
+ text-transform: capitalize;
+}
+.join-now{
+ padding: 16px 32px;
+ border-radius: 8px;
+background: #F00;
+border: 0;
+color: #FFF;
+ font-family: Inter;
 font-size: 20px;
  font-weight: 700;
  text-transform: uppercase;
- text-decoration: none;
-}
-.year-image{
-    width: 320px;
-    height: 450px;
-    padding:  70px 120px;
+ margin-top: 50px;
 }
