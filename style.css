@@ -177,6 +177,9 @@ main {
   width: 1320px;
   height: 600px;
 }
+.up-coming div{
+  width: 1000%;
+}
 .coming-sub {
   color: #f00;
   font-family: Inter;
