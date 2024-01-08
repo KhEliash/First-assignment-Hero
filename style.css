@@ -301,3 +301,36 @@ padding: 80px;
   color: white;
   font-weight: bold;
 }
+/* footer section */
+
+.footer-section{
+  width: 1600px;
+  height: 600px;
+  padding: 120px 140px;
+  background: #070211;
+  color: white;
+  margin-top: 150px;
+}
+.footer-section>hr{
+  height: 1px;
+  color: #FFFFFF;
+  background: white;
+   margin: 0 140px;
+ }
+.footer-text{
+  display: flex;
+  justify-content: space-around;
+ font-family: Inter;
+font-size: 24px;
+ font-weight: 500;
+line-height: 40px;  
+ }
+.footer-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icons>img{
+  padding: 50px  10px;
+
+}
