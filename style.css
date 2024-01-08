@@ -208,6 +208,57 @@ main {
   padding: 30px;
   border-radius: 50%;
 }
+/* Holiday section */
+.holiday-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  width: 1320px;
+}
+.holy-description {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holy-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 10px;
+}
+.holiday-images {
+  position: relative;
+  width: 1320px;
+  height: 600px;
+  margin-top: 100px;
+}
+.holy1 {
+  position: absolute;
+  right: 0;
+  bottom: 229px;
+}
+.holy2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.holy3 {
+  position: absolute;
+  bottom: 80px;
+  left: 50px;
+  top: 0;
+  width: 700px;
+}
+.holy4 {
+  position: absolute;
+  right: 340px;
+}
+
 /* gift section */
 .gift-section {
   width: 1320px;
@@ -256,8 +307,8 @@ main {
   justify-content: center;
   margin-top: 150px;
   border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-padding: 80px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px;
 }
 .mail-image {
   width: 150px;
@@ -281,7 +332,7 @@ padding: 80px;
 }
 .subscribe-search {
   display: inline;
- }
+}
 .left {
   width: 648px;
   height: 72px;
@@ -303,7 +354,7 @@ padding: 80px;
 }
 /* footer section */
 
-.footer-section{
+.footer-section {
   width: 1600px;
   height: 600px;
   padding: 120px 140px;
@@ -311,26 +362,25 @@ padding: 80px;
   color: white;
   margin-top: 150px;
 }
-.footer-section>hr{
+.footer-section > hr {
   height: 1px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: white;
-   margin: 0 140px;
- }
-.footer-text{
+  margin: 0 140px;
+}
+.footer-text {
   display: flex;
   justify-content: space-around;
- font-family: Inter;
-font-size: 24px;
- font-weight: 500;
-line-height: 40px;  
- }
-.footer-icons{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-icons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer-icons>img{
-  padding: 50px  10px;
-
+.footer-icons > img {
+  padding: 50px 10px;
 }
